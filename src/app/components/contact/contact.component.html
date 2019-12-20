@@ -1,0 +1,8 @@
+<div class="data" *ngIf="stores">
+    <h5>Klienci w bazie:</h5>
+    <ul>
+        <li *ngFor="let store of stores|async">
+            {{store.name}} {{store.surname}}, {{store.age}}, {{store.email}}
+        </li>
+    </ul>
+</div>

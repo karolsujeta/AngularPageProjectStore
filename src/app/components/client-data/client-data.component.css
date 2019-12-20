@@ -1,0 +1,11 @@
+.data{
+    padding: 10px;
+    background-color: brown;
+    width: 250px;
+    text-align: center;
+}
+
+.send{
+    width: 120px;
+    height:30px;
+}

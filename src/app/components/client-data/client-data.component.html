@@ -1,0 +1,20 @@
+<div class="data">
+    <h5>Dodaj klienta do bazy:</h5>
+    <label>
+        <input type="text" #name placeholder="Imię">
+    </label><br/>
+
+    <label>
+        <input type="text" #surname placeholder="Nazwisko">
+    </label><br/>
+
+    <label>
+        <input type="text" #age placeholder="Wiek">
+    </label><br/>
+
+    <label>
+        <input type="text" #email placeholder="Email">
+    </label><br/>
+
+    <button class="send" type="submit" (click)="addClient(name.value, surname.value, age.value, email.value)">Dodaj klienta!</button>
+</div>
